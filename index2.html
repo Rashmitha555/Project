@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+           margin: 0;
+           font-family: Arial, Helvetica, sans-serif;
+           display: flex;
+           min-height: 100vh; 
+           background-image:url(./dream-pulse-header.jpg);
+           background-repeat: no-repeat;
+        }
+        .sidebar{
+            width: 300px;
+            height:41.5%;
+            background-color:transparent;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border: 1px solid rgb(170, 167, 167);
+        }
+        .intro{
+            margin-left: 120px;
+        }
+        .about{
+            margin-left: 115px;
+        }
+        .work{
+            margin-left: 119px;
+        }
+        .clients{
+            margin-left: 105.5px;
+        }
+        .let{
+            margin-left: 94px;
+        }
+        .sidebar_content{
+            padding: 20px;
+        }
+        .heading{
+            border: 2px solid rgb(170, 167, 167);
+            width: 80px;
+            padding-left: 15px;
+            margin-top: 6px;
+        }
+        .head2{
+            
+            border: 2px solid;
+            width: 93px;
+            height: 70px;
+            padding-left: 3px;
+            margin-right: 6px;
+        }
+        .F{
+            border:2px solid;
+            border-radius: 3px;
+        }
+        .T{
+            border:2px solid;
+            border-radius: 3px;
+        }
+        .I{
+            border:2px solid;
+            border-radius: 3px;
+        }
+        .IN{
+            border:2px solid;
+            border-radius: 3px;
+        }
+        .sidebar2{
+            width:300px;
+            background-color: gray;
+            height:100%;
+
+        }
+        .DP_Intro{
+            margin-left:50%;
+            margin-top:20%;
+            border:1px solid white;
+            background-color: transparent;
+            width:400px;
+            height:20%;
+            margin-right: 50px;
+            padding-top: 30px;
+            /* padding-bottom: 10px; */
+            padding-left: 30px;
+            padding-right: 20px;
+            background-color:transparent;
+            background-repeat: no-repeat;
+        }
+        h3{
+            color:rgb(4, 100, 138);
+        }
+        .about_us{
+            width:30%;;
+            height:30%;
+            float:left;
+            margin-top: 50px;
+            margin-left: 100px;
+
+        }
+        .company_profile{
+            width:500px;
+            height:50px;
+            float:left;
+            margin-left: 220px;
+            margin-top: 50px;
+        }
+        .third_division{
+            float: right;
+            margin-right: 550px;
+            /* margin-left: 60px; */
+            width:1000px;
+            border: 2px solid;
+        }
+        .image1{
+            margin-left: 50px;
+        }
+        .image2{
+            margin-left: 25px;
+        }
+        .image3{
+            margin-left: 8px;
+        }
+        .image4{
+            margin-left: 8px;
+        }
+        .works{
+            margin-left: 40px;
+        }
+        .our_clients{
+            width:1225px;
+            height: 100px;
+            margin-left: 50px;
+            margin-top: 300px;
+        }
+        .our_client2{
+            margin-left:0px;
+            width:1000px;
+
+        }
+        .images{
+            display:grid;
+            grid-template-columns: repeat(4,1fr);
+            gap:20px;
+            padding-bottom: 20px;
+            padding-top: 10px;
+        }
+        .client-1{
+            border: 2px solid;
+            padding: 2px;
+            margin-left: 50px;
+            width:100px;
+        }
+        .client-2{
+            border: 2px solid;
+            padding: 5px;
+            margin-left: -100px;
+            width:100px;
+        }
+        .client-3{
+            border: 2px solid;
+            padding: 5px;
+            margin-left: -250px;
+            width:100px;
+        }
+        .client-4{
+            border: 2px solid;
+            padding: 2px;
+            margin-left: -400px;
+            height:35px;
+            width:100px;
+        }
+        .client-5{
+            border: 2px solid;
+            padding: 5px;
+            margin-left: 50px;
+            width:100px;
+            height: 30px;
+        }
+        .client-6{
+            border: 2px solid;
+            padding: 5px;
+            margin-left: -100px;
+            width:100px;
+        }
+        .client-7{
+            border: 2px solid;
+            padding: 10px;
+            margin-left: -250px;
+            width:100px;
+        }
+        .client-8{
+            border: 2px solid;
+            padding: 3px;
+            margin-left: -400px;
+            width:100px;
+        }
+        .lastpara{
+            width:500px;
+        }
+        .last_div1{
+            width:600px;
+           border: 2px solid;
+        }
+        .TTU{
+            margin-left:50px;
+        }
+        .lastpara{
+            margin-left: 80px;
+            width:400px;
+        }
+        .last_div2{
+            margin-left: 900px;
+            margin-top: -160px;
+        }
+        .second_division{
+            border:2px solid;
+        }
+        .about_us{
+            width:500px;
+        }
+        .third_division{
+            width: 800px;
+            margin-left: 50px;
+            padding-bottom: 20px;
+            margin-top: 80px;
+        }
+        .last_div1{
+            margin-left: 50px;
+        }
+        .main_container{
+            width:90%;
+        }
+   </style>
+</head>
+<body>
+    <div class="leftside">
+        <div class="sidebar">
+            <div class="sidebar_content"><br><br><br><br>
+                <center><div class="head2"><div class="heading"><P>DREAM <br>PULSE</P></div></div></center><br><br><br>
+                    <nav>
+                        <h4 class="intro">INTRO</h4>
+                        <h4 class="about">ABOUT</h4>
+                        <h4 class="work">WORK</h4>
+                        <h4 class="clients">CLIENTS</h4>
+                        <h4 class="let">LET'S TALK</h4>
+                    </nav>
+                <br><br><br><br><br><br><br><br><br><br>
+                <div class="social-media">
+                    <center>
+                            <img src="./facbook.png" alt="" class="F" width="30px;" height="30px;">
+                    
+                            <img src="./twitter icon.png" alt="" class="T" width="30px;">
+                        
+                            <img src="./instagram icon.png" alt="" class="T" width="30px;">
+                        
+                            <img src="./inkendin icon.png" alt="" class="IN" width="32px;">
+                            <br><br>
+                            <p>Copyright 2020 Dream Pulse</p>
+                            <p>Design-Template Mo</p>
+                    </center>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar2"></div>
+    </div>
+    <div class="main_container">
+        <div class="DP_Intro">
+            <h3>INTRODUCING DREAM PULSE</h3><br>
+            <P>This box alpha 30 percent. Left sidebar isa sticky element.Right side contents or scrolling up and down.This background has a parallax effect.</P><br>
+            <p>Dream Pulse is a Bootstrap 4.3.1 template designed for your websites. You can modify this layout as you like.</p>
+        </div>
+        <br><br><br><br><br><br><br><br>
+        <div class="second_divsion">
+                <div class="about_us" style="background-color: white;">
+                    <img src="./about2.jpg" alt="" style="width:150px;height:200px">
+                    <h3 class="H33">About Us</h3>
+                    <p>When first section is scrolled up, BG image wil be disappeared withaparallax effect. Donec ac tempor tellus, a eleifend ligula. Fusce vitae sem sed purus euismod condimentum.</p>
+                    <p>Sed at orci non metus tristique suscipit vitae in nibh Sed rutrum odio ac est hendrerit, at vestibulum felis condimentum.</p>
+                </div>
+                <div class="company_profile"><br>
+                    <img src="./company.jpg" alt="" style="width: 100px;height: 150px;">
+                        <h3 class="H3">Company Profile</h3>
+                        <p>You can use this template for your commercial websites or for your dients. You are NOT allowed to re-post this template asa downloadable ZIP file on your template collection sites. It is illegal.</p>
+                        <p>Suspendisse fermentum orci eget lorem euismod suscipit. Morbi condimentum odio metus, at finibus dolr sollicitudin quis. Curabitur eu congue erat.</p>
+                </div>
+            </div>  <br><br><br><br><br><br><br><br>
+            <!-- <div class="OW"> -->
+                <div class="third_division">
+                    <h3 class="works">Our Work</h3>
+                    <img src="./01.jpg" alt="" style="width:1
+                    50px; height:200px;"  class="image1">
+                    <img src="./02.jpg" alt="" style="width: 150px; height: 200px;" class="image2">
+                    <img src="./03 (8).jpg" alt="" style="width:150px; height:200px;" class="image3"> 
+                    <img src="./04.jpg" alt="" style="width:150px; height:200px;"  class="image4"> 
+                </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <div class="our_clients">
+                    <h3 class="our_client2">Our Clients</h3>
+                    <p class="oc">Aenean est augue, iaculis ut arcu a, cursus tempus eros. Maecenas ut efficitur lectus, vel commodo nibh. Vivamus consequat massa non euismod facilisis. Morbi assumsan non libero a vehicula. Donec blandit suscipit magna sit amet elementum.</p>
+                </div><br><br>
+                    <div class="images">
+                            <img src="./client-1.png" alt="" class="client-1">
+                            <img src="./client-2 (1).png" alt="" class="client-2">
+                            <img src="./client-3.png" alt="" class="client-3">
+                            <img src="./client-4.png" alt="" class="client-4">
+                            <img src="./client-5.png" alt="" class="client-5">
+                            <img src="./client-6 (1).png" alt="" class="client-6">
+                            <img src="./client-7.png" alt="" class="client-7">
+                            <img src="./client-8.png" alt="" class="client-8">
+                    </div><br><br><br><br><br><br>
+                    <div class="last"></div>
+                        <div class="last_div1">
+                            <h3 class="TTU">Talk to Us</h3>
+                            <p class="lastpara">Talk to Us Sed aliquet, nibh ac hendrerit faucibus, tellus metus viverra tellus vel volutpat purus orci acex Your Email Message 120-240 Orci varius natoque penatibus, parturient montes, 10560 nasvetur ridiculus mus</p>
+                        </div>
+                        <div class="last_div2">
+                            <form>
+                                <label for="name">Your Name</label><br>
+                                <label for="-">__________________________________</label><br><br>
+                                <label for="email">Your Email</label><br>
+                                <label for="--">__________________________________</label><br><br>
+                                <label for="msg">Message</label><br><br><br>
+                                <label for="---">____________________________________</label>
+                            </form>
+                      </div>
+                    </div> 
+        </div>
+    </div>
+</body>
+</html>
